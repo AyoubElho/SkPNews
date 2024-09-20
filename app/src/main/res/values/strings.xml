@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SkPNews</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_search">بحث</string>
+    <string name="title_categories">أصناف</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_toolbar">أخبار عمالة سيدي قاسم</string>
+    <string name="breaking_news">الأخبار العاجلة!</string>
+    <string name="عرض_الكل"><u>عرض الكل</u></string>
+    <string name="جميع_الاخبار">جميع الأخبار
+    </string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="default_notification_channel_id" translatable="false">default_channel_id</string>
+
+    <string name="search">بحث</string>
+    <string name="category">اصناف</string>
+</resources>

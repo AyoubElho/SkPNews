@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/MyMaterialCardViewStyle"
+        android:id="@+id/cardView"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:strokeWidth="0dp"
+        app:cardElevation="4dp"
+        android:clickable="true"
+        app:contentPaddingLeft="4dp"
+        app:contentPaddingRight="2dp"
+        app:contentPaddingTop="4dp"
+        app:contentPaddingBottom="4dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imageView1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="9dp"
+                android:layout_marginRight="8dp"
+                app:riv_corner_radius="10dp"
+                app:riv_mutate_background="true"
+                app:riv_tile_mode="repeat" />
+
+            <LinearLayout
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="9dp"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:fontFamily="@font/alfont_com"
+                    android:text="بدون عنوان: هذه أرقام تصدير الماء عبر الخضر والفواكه في عز أزمة الجفاف بالمغرب"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descriptionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/alfont_com"
+                    android:lines="3"
+                    android:textSize="16dp"
+                    android:text="قراءة مواد بعض الجرائد الخاصة بيوم الخميس نستهلها من “الأحداث المغربية”، التي ورد بها أن عددا من المغاربة العابرين باب سبتة في اتجاه المدينة المحتلة أو نحو التراب الإسباني تعرضوا لعدد من المضايقات في نقط التفتيش، وهي العملية التي تتم بشكل مهين بحثا عن مواد غذائية من المنتج المغربي، إذ يتم حجزها وتغريم أصحابها وسط جو مستفز بسبب منع هذه المواد، علما أن عددا من المغاربة اعتادوا نقلها لاستهلاكها خلال شهر رمضان."
+                    android:layout_marginTop="7dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

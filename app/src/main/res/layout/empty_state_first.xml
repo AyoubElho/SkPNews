@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emptyLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/empty_state_image"
+        android:layout_width="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="180dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/search_start" />
+
+    <TextView
+        android:id="@+id/empty_state_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empty_state_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="ابحث عن اخبار"
+        android:fontFamily="@font/far_casablanca"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>

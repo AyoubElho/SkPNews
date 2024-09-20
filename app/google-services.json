@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "605991060373",
+    "firebase_url": "https://skpnews-517a4-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "skpnews-517a4",
+    "storage_bucket": "skpnews-517a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605991060373:android:b90c9399a03bf174152c9c",
+        "android_client_info": {
+          "package_name": "com.example.skpnews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9iYnuC9iMoCEPSC0IdyUWbr9GWXtxa5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605991060373:android:77aea05ac9f39b5b152c9c",
+        "android_client_info": {
+          "package_name": "com.example.skpnews_developer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9iYnuC9iMoCEPSC0IdyUWbr9GWXtxa5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605991060373:android:29d16ec0b03fa0dd152c9c",
+        "android_client_info": {
+          "package_name": "com.example.skpnewsmvvm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9iYnuC9iMoCEPSC0IdyUWbr9GWXtxa5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

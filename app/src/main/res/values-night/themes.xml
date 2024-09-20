@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SkPNewsMvvm" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:direction">right_to_left</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="emptyState">
+        <item name="android:src">@drawable/empty_box_night</item>
+    </style>
+
+    <style name="SplashImage">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">350dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">
+            @drawable/splach_image_white
+        </item>
+    </style>
+
+    <style name="navBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="title">@string/title_toolbar</item>
+        <item name="titleCentered">true</item>
+        <item name="navigationIconTint">@color/white</item>
+        <item name="android:background">@color/toolbar</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+    <!-- styles.xml -->
+    <style name="MyMaterialCardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">1dp</item>
+        <item name="cardBackgroundColor">@color/cardv_item</item>
+        <!-- Add any other attributes you want to customize -->
+    </style>
+
+
+</resources>
